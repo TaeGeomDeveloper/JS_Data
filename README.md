@@ -4,7 +4,8 @@
 
 
 ## 1. 문자
-./JS_data/Text.js
+< Text.js >
+
 - 검색 **indexof** ,비교  
 	```javascript
 		const result = 'Hello world!'.indexOf('world')
@@ -28,7 +29,8 @@
 	``` 
 
 ## 2. 숫자와 수학
-./JS_data/Number.js
+< Number.js >
+
 - 소수점 **toFixed**
 	```javascript
 		const str = pi.toFixed(2)
