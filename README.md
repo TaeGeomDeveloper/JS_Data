@@ -137,7 +137,7 @@
 
 ## 5. 구조 분해 할당 (Destructuring assignment)
 < Destructuring.js >
-
+- 비 구조 와 구조 분해  
 	```javascript
 		const fruits = ['Apple', 'Banana', 'Cherry']
 		const [,b,d = 'Mango'] = fruits
@@ -146,7 +146,7 @@
 	
 ## 6. 전개 연산자 (Spread)
 < Spread.js >
-
+- ...Spread  
 	```javascript
 		const fruits = ['Apple', 'Banana', 'Cherry']
 		console.log(fruits)
