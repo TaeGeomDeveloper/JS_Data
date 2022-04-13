@@ -4,15 +4,15 @@
 
 
 ## 1. 문자
-- 검색 ,비교  
-```javascript
-const result = 'Hello world!'.indexOf('world')
-``` 
-- 길이   
+- 검색 **indexof** ,비교  
+	```javascript
+		const result = 'Hello world!'.indexOf('world')
+	``` 
+- 길이 **length**      
 	```javascript
 		console.log(str.length)
 	``` 
-- 자르기 , 대채하기  
+- 자르기 **slice** , 대채하기 **replace** 
 	```javascript
 		console.log(str3.slice(6,11));
 		console.log(str4.replace('world','TaeGeom'));
