@@ -27,15 +27,43 @@
 	``` 
 
 ## 2. 숫자와 수학
-	- 소수점 **toFixed**
-	- 정수형 **parseInt**, 소수형 **parseFloat**
-	- 절대값 **Math.abs**
-	- 최소값 **Math.min**
-	- 최대값 **Math.max**
-	- 소수올림 **Math.ceil**
-	- 소수내림 **Math.floor**
-	- 소수 반올리 **Math.round**
-	- 랜덤	**Math.round**
+- 소수점 **toFixed**
+	```javascript
+		const str = pi.toFixed(2)
+	``` 
+- 정수형 **parseInt**, 소수형 **parseFloat**
+	```javascript
+		const integer = parseInt(str)
+		const float = parseFloat(str)
+	``` 
+- 절대값 **Math.abs**
+	```javascript
+		console.log('abs : ', Math.abs(-12))
+	``` 
+- 최소값 **Math.min**
+	```javascript
+		console.log('min : ', Math.min(2,8))
+	``` 
+- 최대값 **Math.max**
+	```javascript
+		console.log('max : ', Math.max(2,8))
+	``` 
+- 소수올림 **Math.ceil**
+	```javascript
+		console.log('ceil : ', Math.ceil(3.14))
+	``` 
+- 소수내림 **Math.floor**
+	```javascript
+		console.log('floor : ', Math.floor(3.14))
+	``` 
+- 소수 반올리 **Math.round**
+	```javascript
+		console.log('round : ', Math.round(3.14))
+	``` 
+- 랜덤	**Math.round**
+	```javascript
+		console.log('random : ', Math.round(Math.random()* 10))
+	``` 
 	
 ## 3. 배열 
 	- 길이 **length**
