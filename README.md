@@ -3,7 +3,7 @@
 자바스크립트 데이터 공부
 
 ## 1. 문자
-	- 검색 **indexOf** ,비교 
+	- 검색 <b>indexOf<b> ,비교 
 	- 길이 **length**
 	- 자르기 **slice**, 대채하기 **replace**
 	- 매치 **match**
