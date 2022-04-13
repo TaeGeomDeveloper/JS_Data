@@ -2,12 +2,29 @@
 
 자바스크립트 데이터 공부
 
+
 ## 1. 문자
-	- 검색 <b>indexOf<b> ,비교 
-	- 길이 **length**
-	- 자르기 **slice**, 대채하기 **replace**
+	- 검색 ,비교
+	```javascript
+		const result = 'Hello world!'.indexOf('world')
+	``` 
+	- 길이 
+	```javascript
+		console.log(str.length)
+	``` 
+	- 자르기 , 대채하기
+	```javascript
+		console.log(str3.slice(6,11));
+		console.log(str4.replace('world','TaeGeom'));
+	``` 	
 	- 매치 **match**
+	```javascript
+		console.log(str5.match(/.+(?=@)/)[0])
+	``` 
 	- 공백 **trim**
+	```javascript
+		console.log(str6.trim());
+	``` 
 
 ## 2. 숫자와 수학
 	- 소수점 **toFixed**
