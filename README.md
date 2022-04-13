@@ -70,6 +70,7 @@
 	``` 
 	
 ## 3. 배열 
+< Array1.js > < Array2.js >
 
 - 길이 **length**
 	```javascript
@@ -123,3 +124,42 @@
 	``` 
 
 ## 4. 객체
+< Object.js >
+
+- 데이터 합치기 **Object.assign**
+	```javascript
+		const target = Object.assign({},userAge, userEmail)
+	```
+- 키 값 전달 **Object.keys**
+	```javascript
+		const keys = Object.keys(user)
+	```
+
+## 5. 구조 분해 할당 (Destructuring assignment)
+< Destructuring.js >
+
+	```javascript
+		const fruits = ['Apple', 'Banana', 'Cherry']
+		const [,b,d = 'Mango'] = fruits
+		console.log( b, d)
+	```
+	
+## 6. 전개 연산자 (Spread)
+< Spread.js >
+
+	```javascript
+		const fruits = ['Apple', 'Banana', 'Cherry']
+		console.log(fruits)
+		console.log(...fruits)
+	```
+	
+## 7. 불변성
+< Immutability.js >
+
+- 데이터 값 과 메모리 값 의 차이 (자바스크립트 참조)	
+	
+## 8. 얇은 복사와 깊은 복사
+< copy.js >
+
+- 얇은 복사
+- **lodash** 를 활용한 깊은 복사 
