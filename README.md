@@ -70,13 +70,56 @@
 	``` 
 	
 ## 3. 배열 
-	- 길이 **length**
-	- 합치기 **concat**
-	- 갯수만큼 반복 **forEach**
-	- 반복후 새로운 매소드로 반환 **map**
-	- 트루 값만 반환	**filter**
- 	- 몇번째 인지 검색 **find**, **findIndex**
-	- 데이터 확인 **includes**
-	- 데이터 삽입 **push**, **unshift()**
-	- 배열 반대로 수정 **reverse**
-	- 자르기 **splice**
+
+- 길이 **length**
+	```javascript
+		console.log(numbers.length)
+	``` 
+- 합치기 **concat**
+	```javascript
+		console.log(numbers.concat(fruits))
+	``` 
+- 갯수만큼 반복 **forEach**
+	```javascript
+		fruits.forEach(function(fruits, i){
+		  console.log(fruits,i)
+		})
+	``` 
+- 반복후 새로운 매소드로 반환 **map**
+	```javascript
+		const b = fruits.map(function (fruit, index){
+ 		 //return `${fruit}-${index}`
+		  return {
+		    id: index,
+		    name: fruit
+		  }
+		})
+	``` 
+- 트루 값만 반환 **filter**
+	```javascript
+		const b = numbers.filter(number => number < 3)
+	``` 
+- 몇번째 인지 검색 **find**, **findIndex**
+	```javascript
+		const c = fruits.find(fruit => /^B/.test(fruit) ) // B로 시작하는 정규식 표현
+		const d = fruits.findIndex(fruit => /^C/.test(fruit) ) // B로 시작하는 정규식 표현
+	``` 
+- 데이터 확인 **includes**
+	```javascript
+		const e = numbers.includes(3)
+	``` 
+- 데이터 삽입 **push**, **unshift()**
+	```javascript
+		numbers.push(5)
+		numbers.unshift(0)
+	``` 
+- 배열 반대로 수정 **reverse**
+	```javascript
+		numbers.reverse()
+	``` 
+- 자르기 **splice**
+	```javascript
+		numbers.splice(0,2)
+	``` 
+
+## 4. 객체
